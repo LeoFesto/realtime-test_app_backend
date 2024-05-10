@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EriiFLgRs29SYI0ymnaenI8XctBcDQ0puntpnGS2E24=",
+  "Source": "realtime_on_production_test",
+  "BasePath": "_content/realtime_on_production_test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

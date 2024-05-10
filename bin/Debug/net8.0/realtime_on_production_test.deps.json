@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "realtime_on_production_test/1.0.0": {
+        "runtime": {
+          "realtime_on_production_test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "realtime_on_production_test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

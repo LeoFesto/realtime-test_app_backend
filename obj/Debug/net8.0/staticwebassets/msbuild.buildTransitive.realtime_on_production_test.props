@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\realtime_on_production_test.props" />
+</Project>
