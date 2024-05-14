@@ -4,6 +4,10 @@ using realtime_on_production_test;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSignalR();
 
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddMvc();
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -27,7 +31,9 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+
 app.UseCors();
+app.MapControllers();
 app.MapHub<ChatHub>("/connection");
 
 
